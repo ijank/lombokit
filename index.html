@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lombok IT</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo"><img src="assets/images/logo.png" alt="logo lombok it" width="50"></a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <a href="https://wa.me/6281234567890" class="navbar-link" data-nav-link target="_blank">
+              Contact Us
+            </a>
+          </li>
+          
+
+        </ul>
+      </nav>
+
+      
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero.png" width="804" height="643" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">Solusi Layanan IT Lombok</h2>
+
+
+            <p class="section-text">
+              Melayani perbaikan berbagai jenis komputer dengan layanan seperti instal ulang, penggantian komponen, dan reparasi umum. 
+            </p>
+
+            <form id="whatsapp-form" class="hero-form">
+              <input type="text" id="user-input" placeholder="Masukkan Pesan Anda" aria-label="Masukkan Pesan Anda" required class="input-field">
+              <button type="submit" class="btn btn-primary">Kirim ke WhatsApp</button>
+            </form>
+
+            <ul class="hero-list">
+
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <span class="span">Perbaikan Laptop & PC</span>
+              </li>
+            
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <span class="span">Servis Hardware & Penggantian Komponen</span>
+              </li>
+            
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <span class="span">Instalasi & Upgrade Software</span>
+              </li>
+            
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <span class="span">Pembersihan & Optimasi Performa</span>
+              </li>
+            
+              <li class="hero-item">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <span class="span">Perbaikan Jaringan & WiFi</span>
+              </li>
+            
+            </ul>
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+      
+          <h2 class="h2 section-title">Layanan Kami Untuk Anda</h2>
+      
+          <p class="section-text">
+            Kami menyediakan solusi terbaik untuk masalah komputer dan jaringan Anda, mulai dari perbaikan perangkat keras hingga optimasi sistem agar berjalan lebih lancar.
+          </p>
+      
+          <ul class="service-list">
+      
+            <li>
+              <div class="service-card">
+      
+                <figure class="card-banner">
+                  <img src="./assets/images/service-1.gif" width="728" height="344" loading="lazy" alt="Perbaikan Komputer & Laptop" class="w-100">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Perbaikan Komputer & Laptop</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Layanan perbaikan untuk semua jenis kerusakan komputer dan laptop, termasuk penggantian komponen, perbaikan motherboard, dan instalasi ulang sistem operasi.
+                  </p>
+      
+                  <a href="https://wa.me/628XXXXXXXXXX" class="btn-link" target="_blank">
+                    <span class="span">Chat Sekarang</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card">
+      
+                <figure class="card-banner">
+                  <img src="./assets/images/service-2.gif" width="728" height="344" loading="lazy" alt="Instalasi & Upgrade Software" class="w-100">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Instalasi & Upgrade Software</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Instalasi dan pembaruan software untuk meningkatkan performa komputer Anda, termasuk instalasi sistem operasi, program keamanan, dan software produktivitas.
+                  </p>
+      
+                  <a href="https://wa.me/628XXXXXXXXXX" class="btn-link" target="_blank">
+                    <span class="span">Chat Sekarang</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="service-card">
+      
+                <figure class="card-banner">
+                  <img src="./assets/images/service-3.gif" width="728" height="344" loading="lazy" alt="Perbaikan & Optimasi Jaringan" class="w-100">
+                </figure>
+      
+                <div class="card-content">
+      
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Perbaikan & Optimasi Jaringan</a>
+                  </h3>
+      
+                  <p class="card-text">
+                    Solusi untuk masalah jaringan dan WiFi, termasuk pemasangan jaringan baru, optimasi kecepatan internet, dan troubleshooting koneksi yang bermasalah.
+                  </p>
+      
+                  <a href="https://wa.me/628XXXXXXXXXX" class="btn-link" target="_blank">
+                    <span class="span">Chat Sekarang</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+      
+                </div>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+     <!-- 
+    - #FEATURES
+-->
+
+<section class="section features" id="features">
+  <div class="container">
+
+    <div class="features-content">
+
+      <h2 class="h2 section-title">Keunggulan Layanan Kami</h2>
+
+      <p class="section-text">
+        Kami memberikan solusi terbaik untuk permasalahan IT Anda, mulai dari perbaikan perangkat keras, optimasi jaringan, hingga instalasi dan pemeliharaan sistem.
+      </p>
+
+      <ul class="features-list">
+
+        <li class="features-item">
+          <img src="./assets/images/features-icon-1.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+            class="item-icon">
+
+          <h3 class="item-title">Perbaikan Laptop & PC</h3>
+        </li>
+
+        <li class="features-item">
+          <img src="./assets/images/features-icon-2.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+            class="item-icon">
+
+          <h3 class="item-title">Pembersihan & Optimasi Sistem</h3>
+        </li>
+
+        <li class="features-item">
+          <img src="./assets/images/features-icon-3.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+            class="item-icon">
+
+          <h3 class="item-title">Instalasi & Upgrade Software</h3>
+        </li>
+
+        <li class="features-item">
+          <img src="./assets/images/features-icon-4.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+            class="item-icon">
+
+          <h3 class="item-title">Perbaikan & Optimasi Jaringan</h3>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="banner-wrapper">
+
+      <figure class="features-banner one">
+        <img src="./assets/images/features-banner-1.gif" width="600" height="500" loading="lazy"
+          alt="Layanan IT" class="w-100">
+      </figure>
+
+      <figure class="features-banner two">
+        <img src="./assets/images/features-banner-2.png" width="436" height="311" loading="lazy"
+          alt="Teknisi IT" class="w-100">
+      </figure>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+     <!-- 
+    - #ABOUT
+-->
+
+<section class="section about" id="about">
+  <div class="container">
+
+    <h2 class="h2 section-title">Apa yang Kami Lakukan</h2>
+
+    <p class="section-text">
+      Lombok IT Service Solution menyediakan berbagai layanan untuk memastikan perangkat dan sistem IT Anda berjalan dengan optimal. Kami siap membantu dalam perbaikan, pemeliharaan, serta peningkatan performa komputer dan jaringan Anda.
+    </p>
+
+    <ul class="about-list">
+
+      <li>
+        <div class="about-card about-card-1">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-1.svg" width="94" height="94" loading="lazy"
+              alt="Perbaikan & Servis Laptop/PC">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Perbaikan & Servis Laptop/PC</a>
+            </h3>
+
+            <p class="card-text">
+              Kami menangani berbagai masalah perangkat keras dan perangkat lunak, termasuk penggantian komponen, instalasi ulang OS, dan optimasi sistem.
+            </p>
+
+            <a href="https://wa.me/62xxxxxxxxxxx" class="btn-link">
+              <span class="span">Chat Sekarang</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-2">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-2.svg" width="94" height="94" loading="lazy"
+              alt="Instalasi & Upgrade Perangkat Lunak">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Instalasi & Upgrade Perangkat Lunak</a>
+            </h3>
+
+            <p class="card-text">
+              Kami membantu pemasangan dan pembaruan software untuk memastikan perangkat Anda selalu dalam kondisi terbaik.
+            </p>
+
+            <a href="https://wa.me/62xxxxxxxxxxx" class="btn-link">
+              <span class="span">Chat Sekarang</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-3">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-3.svg" width="94" height="94" loading="lazy"
+              alt="Pemulihan Data & Backup">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Pemulihan Data & Backup</a>
+            </h3>
+
+            <p class="card-text">
+              Data hilang? Kami menyediakan layanan pemulihan data dan solusi backup untuk mencegah kehilangan informasi penting Anda.
+            </p>
+
+            <a href="https://wa.me/62xxxxxxxxxxx" class="btn-link">
+              <span class="span">Chat Sekarang</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="about-card about-card-4">
+
+          <figure class="card-banner">
+            <img src="./assets/images/about-img-4.svg" width="94" height="94" loading="lazy"
+              alt="Perbaikan & Optimasi Jaringan">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Perbaikan & Optimasi Jaringan</a>
+            </h3>
+
+            <p class="card-text">
+              Solusi jaringan untuk rumah atau kantor Anda, termasuk pemasangan, perbaikan koneksi internet, dan konfigurasi router.
+            </p>
+
+            <a href="https://wa.me/62xxxxxxxxxxx" class="btn-link">
+              <span class="span">Chat Sekarang</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+    <p class="section-text">
+      Kami siap memberikan solusi terbaik untuk kebutuhan IT Anda.
+      <a href="https://wa.me/62xxxxxxxxxxx" class="btn-link">
+        <span class="span">Chat Sekarang</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+    </p>
+
+  </div>
+</section>
+
+
+
+
+
+
+    <!-- 
+    - #STATS
+-->
+
+<section class="section stats">
+  <div class="container">
+
+    <figure class="stats-banner">
+      <img src="./assets/images/stats-banner.png" width="619" height="482" loading="lazy" alt="stats"
+        class="w-100">
+    </figure>
+
+    <ul class="stats-list">
+
+      <li class="stats-item purple">
+        <h3 class="item-title">
+          1,500+
+          <span class="span">perangkat</span>
+        </h3>
+
+        <p class="stats-text">Laptop & PC telah diperbaiki</p>
+      </li>
+
+      <li class="stats-item red">
+        <h3 class="item-title">
+          3,000+
+          <span class="span">pelanggan</span>
+        </h3>
+
+        <p class="stats-text">Telah mempercayai layanan kami</p>
+      </li>
+
+      <li class="stats-item green">
+        <h3 class="item-title">
+          99%
+          <span class="span">kepuasan</span>
+        </h3>
+
+        <p class="stats-text">Tingkat kepuasan pelanggan</p>
+      </li>
+
+      <li class="stats-item yellow">
+        <h3 class="item-title">
+          20+
+          <span class="span">tahun</span>
+        </h3>
+
+        <p class="stats-text">Pengalaman dalam dunia IT</p>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+
+
+
+
+     <!-- 
+    - #APP (Diubah menjadi bagian kontak Lombok IT)
+-->
+
+<section class="section app">
+  <div class="container">
+
+    <div class="app-content">
+
+      <h2 class="h2 section-title">Hubungi Kami Untuk Layanan IT</h2>
+
+      <p class="section-text">
+        Butuh perbaikan laptop, PC, atau konsultasi masalah IT? Tim Lombok IT siap membantu Anda dengan layanan terbaik dan terpercaya.
+      </p>
+
+      <div class="btn-group">
+
+        <a href="https://wa.me/628xxxxxxxxxx" class="btn btn-primary">
+          <img src="./assets/images/whatsapp-logo.png" width="30" height="31" loading="lazy" alt="WhatsApp icon">
+          <span class="span">
+            CHAT VIA
+            <strong class="strong">WhatsApp</strong>
+          </span>
+        </a>
+
+        <a href="https://www.facebook.com/lombokit" class="btn btn-secondary">
+          <img src="./assets/images/whatsapp-logo.png" width="30" height="31" loading="lazy" alt="Facebook icon">
+          <span class="span">
+            HUBUNGI KAMI DI
+            <strong class="strong">Facebook</strong>
+          </span>
+        </a>
+
+        <a href="https://www.instagram.com/lombokit" class="btn btn-secondary">
+          <img src="./assets/images/whatsapp-logo.png" width="30" height="31" loading="lazy" alt="Instagram icon">
+          <span class="span">
+            FOLLOW KAMI DI
+            <strong class="strong">Instagram</strong>
+          </span>
+        </a>
+
+      </div>
+
+    </div>
+
+    <figure class="app-banner">
+      <img src="./assets/images/contact-banner.png" width="748" height="536" loading="lazy" alt="Contact Us"
+        class="w-100">
+    </figure>
+
+  </div>
+</section>
+
+
+
+
+
+
+   <!-- 
+    - #SUPPORT (Diperbarui untuk Lombok IT)
+-->
+
+<section class="section support">
+  <div class="container">
+
+    <div class="support-content">
+      <h2 class="h2 section-title">Layanan IT & Support 24/7</h2>
+
+      <p class="section-text">
+        Tim Lombok IT siap membantu Anda kapan saja dengan layanan perbaikan dan solusi IT terbaik. Hubungi kami untuk konsultasi atau perbaikan perangkat Anda:
+      </p>
+    </div>
+
+    <a href="https://wa.me/628xxxxxxxxxx" class="btn btn-primary">Hubungi Kami Sekarang</a>
+
+  </div>
+</section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+ <!-- 
+    - #FOOTER (Sederhana)
+-->
+
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title">Contact Us</p>
+        </li>
+
+        <li class="footer-item">
+          <img src="./assets/images/contact-icon-1.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+          <span class="span">
+            Call Us:
+            <a href="tel:+6281234567890" class="footer-item-link">+62 812-3456-7890</a>
+          </span>
+        </li>
+
+        <li class="footer-item">
+          <img src="./assets/images/contact-icon-2.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+          <span class="span">
+            Address:
+            <a href="#" class="footer-item-link">Jl. Raya Lombok No. 123, NTB</a>
+          </span>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="copyright">
+        &copy; 2025 <span class="span">Lombok IT</span>. All rights reserved.
+      </p>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
